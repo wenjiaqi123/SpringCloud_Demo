@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gsm.dao.TxDao">
+
+    <select id="getAll" resultType="Money">
+        select t.user_name,t.money
+        from money t
+    </select>
+
+    <update id="updateSth" parameterType="Money">
+        update money
+        set money = money + #{money}
+        where user_name = #{userName}
+    </update>
+</mapper>
