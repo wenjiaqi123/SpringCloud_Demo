@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java_interceptor" />
+        <module name="java_config" />
+        <module name="java_websocket" />
+        <module name="java_redis" />
+        <module name="java_eureka" />
+        <module name="java_ssm" />
+        <module name="java_test" />
+        <module name="java_log" />
+        <module name="java_tx" />
+        <module name="java_lombok" />
+        <module name="java_mongodb" />
+        <module name="java_elasticsearch" />
+        <module name="java_exception" />
+        <module name="java_rabbitmq" />
+        <module name="java_springboot" />
+        <module name="java_job" />
+        <module name="java_swagger" />
+        <module name="java_validated" />
+        <module name="java_login" />
+        <module name="java_jpa" />
+        <module name="java_v" />
+        <module name="java_file" />
+        <module name="java_zuul" />
+        <module name="java_security" />
+        <module name="java_async" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="java_async" target="1.8" />
+      <module name="java_config" target="1.8" />
+      <module name="java_elasticsearch" target="1.8" />
+      <module name="java_eureka" target="1.8" />
+      <module name="java_exception" target="1.8" />
+      <module name="java_file" target="1.8" />
+      <module name="java_interceptor" target="1.8" />
+      <module name="java_job" target="1.8" />
+      <module name="java_jpa" target="1.8" />
+      <module name="java_log" target="1.8" />
+      <module name="java_login" target="1.8" />
+      <module name="java_lombok" target="1.8" />
+      <module name="java_mongodb" target="1.8" />
+      <module name="java_rabbitmq" target="1.8" />
+      <module name="java_redis" target="1.8" />
+      <module name="java_security" target="1.8" />
+      <module name="java_springboot" target="1.8" />
+      <module name="java_ssm" target="1.8" />
+      <module name="java_swagger" target="1.8" />
+      <module name="java_test" target="1.8" />
+      <module name="java_tx" target="1.8" />
+      <module name="java_v" target="1.8" />
+      <module name="java_validated" target="1.8" />
+      <module name="java_websocket" target="1.8" />
+      <module name="java_zuul" target="1.8" />
+      <module name="SpringCloud_Demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringCloud_Demo" options="-parameters" />
+      <module name="java_async" options="-parameters" />
+      <module name="java_config" options="-parameters" />
+      <module name="java_elasticsearch" options="-parameters" />
+      <module name="java_eureka" options="-parameters" />
+      <module name="java_exception" options="-parameters" />
+      <module name="java_file" options="-parameters" />
+      <module name="java_interceptor" options="-parameters" />
+      <module name="java_job" options="-parameters" />
+      <module name="java_jpa" options="-parameters" />
+      <module name="java_log" options="-parameters" />
+      <module name="java_login" options="-parameters" />
+      <module name="java_lombok" options="-parameters" />
+      <module name="java_mongodb" options="-parameters" />
+      <module name="java_rabbitmq" options="-parameters" />
+      <module name="java_redis" options="-parameters" />
+      <module name="java_security" options="-parameters" />
+      <module name="java_springboot" options="-parameters" />
+      <module name="java_ssm" options="-parameters" />
+      <module name="java_swagger" options="-parameters" />
+      <module name="java_test" options="-parameters" />
+      <module name="java_tx" options="-parameters" />
+      <module name="java_v" options="-parameters" />
+      <module name="java_validated" options="-parameters" />
+      <module name="java_websocket" options="-parameters" />
+      <module name="java_zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

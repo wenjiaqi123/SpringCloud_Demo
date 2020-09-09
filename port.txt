@@ -1,0 +1,36 @@
+springboot      第一个SpringBoot项目     18080
+
+----------------SpringBoot--------------------
+lombok          简化bean                 19001
+
+ssm             SSM整合                  19010
+tx              事务                     19011
+test            单元测试                 19012
+log             日志                     19013
+file            文件上传                 19014
+validation      数据校验                 19015
+
+interceptor     拦截器                   20000
+exception       异常                     20001
+
+login           登录                     19100
+security        认证鉴权                 19101
+
+
+job             定时任务                 19201
+async           异步编程                 19202
+swagger         接口文档                 19203
+websocket       推送                     19204
+
+################ 用得比较多 #################
+redis           redis                   20100
+rabbitmq        消息队列                 20200
+mongodb         文档型数据库             20300
+elasticsearch   文件检索                 20400
+jpa             jpa                     20500
+
+
+----------------SpringCloud--------------------
+config          配置中心                29999
+eureka          注册中心                30000
+zuul            网关                    38080

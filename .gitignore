@@ -1,0 +1,4 @@
+# Project exclude paths
+/java_lombok/target/
+/java_springboot/target/
+/java_ssm/target/

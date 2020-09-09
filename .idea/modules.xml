@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringCloud_Demo.iml" filepath="$PROJECT_DIR$/.idea/SpringCloud_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_async/java_async.iml" filepath="$PROJECT_DIR$/java_async/java_async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_config/java_config.iml" filepath="$PROJECT_DIR$/java_config/java_config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_elasticsearch/java_elasticsearch.iml" filepath="$PROJECT_DIR$/java_elasticsearch/java_elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_eureka/java_eureka.iml" filepath="$PROJECT_DIR$/java_eureka/java_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_exception/java_exception.iml" filepath="$PROJECT_DIR$/java_exception/java_exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_file/java_file.iml" filepath="$PROJECT_DIR$/java_file/java_file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_interceptor/java_interceptor.iml" filepath="$PROJECT_DIR$/java_interceptor/java_interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_job/java_job.iml" filepath="$PROJECT_DIR$/java_job/java_job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_jpa/java_jpa.iml" filepath="$PROJECT_DIR$/java_jpa/java_jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_log/java_log.iml" filepath="$PROJECT_DIR$/java_log/java_log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_login/java_login.iml" filepath="$PROJECT_DIR$/java_login/java_login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_lombok/java_lombok.iml" filepath="$PROJECT_DIR$/java_lombok/java_lombok.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_mongodb/java_mongodb.iml" filepath="$PROJECT_DIR$/java_mongodb/java_mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_rabbitmq/java_rabbitmq.iml" filepath="$PROJECT_DIR$/java_rabbitmq/java_rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_redis/java_redis.iml" filepath="$PROJECT_DIR$/java_redis/java_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_security/java_security.iml" filepath="$PROJECT_DIR$/java_security/java_security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_springboot/java_springboot.iml" filepath="$PROJECT_DIR$/java_springboot/java_springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_ssm/java_ssm.iml" filepath="$PROJECT_DIR$/java_ssm/java_ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_swagger/java_swagger.iml" filepath="$PROJECT_DIR$/java_swagger/java_swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_test/java_test.iml" filepath="$PROJECT_DIR$/java_test/java_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_tx/java_tx.iml" filepath="$PROJECT_DIR$/java_tx/java_tx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_validated/java_validated.iml" filepath="$PROJECT_DIR$/java_validated/java_validated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_websocket/java_websocket.iml" filepath="$PROJECT_DIR$/java_websocket/java_websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_zuul/java_zuul.iml" filepath="$PROJECT_DIR$/java_zuul/java_zuul.iml" />
+    </modules>
+  </component>
+</project>
