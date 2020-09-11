@@ -1,0 +1,37 @@
+server:
+  port: 19013
+#####################################################################
+spring:
+  datasource:
+    # 数据源驱动   多个单词之间可以不用中划线，换成大写  【driver-class-name】【driverClassName】
+    driver-class-name: com.mysql.jdbc.Driver
+    # 数据库url      【时区】serverTimezone=Asia/Shanghai    【连接】useSSL=false&autoReconnect=true   【批量操作】allowMultiQueries=true  【字符编码】characterEncoding=UTF-8
+    url: jdbc:mysql://cdb-jwd16kdk.bj.tencentcdb.com:10069/wyxjava?useSSL=false&allowMultiQueries=true&autoReconnect=true&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8
+    # 数据库用户名
+    username: root
+    # 数据库用户密码
+    password: wyxjava123
+#####################################################################
+mybatis:
+  # 别名包,该包名下的实体类在 Mapper 里可以直接写类名
+  type-aliases-package: com.gsm.entity
+  # 指定 mapper 位置, classpath 指代的是 编译过后的 target 包下 classes
+  mapper-locations: classpath:com/gsm/dao/*Mapper.xml
+  configuration:
+    # 首字母大小写转换
+    map-underscore-to-camel-case: true
+#####################################################################
+# 日志配置
+logging:
+  # 日志等级
+  level:
+    # root 表示作用域为整个项目,作用等级为 INFO(大小写无关),默认的 DEBUG,作用等级
+    root: info
+    # 也可以对某个的包 进行特定等级打日志
+    com.gsm.dao: debug
+  # 日志路径 默认日志文件名为 spring.log
+  #path: D:\\log
+  # 日志输出到该文件
+  #file: D:\\test\\project.log
+  # 如果使用其他配置,缺省配置为 logback-spring.xml
+  #config: classpath:logback-spring.xml
