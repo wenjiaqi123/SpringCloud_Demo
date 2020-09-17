@@ -18,7 +18,6 @@ public class ValidateController {
 
     @PostMapping("demo")
     public R insertSth(@Validated(value = User.insert.class) @RequestBody User user) {
-
         return new R();
     }
 }

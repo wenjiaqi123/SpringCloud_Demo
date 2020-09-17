@@ -17,4 +17,10 @@ public class TestControllerTest {
         String s = testController.getSth("s");
         System.out.println(s);
     }
+
+    @Test
+    public void t1() {
+        boolean flag = 0.1 + 0.2 == 0.3;
+        System.out.println(flag);
+    }
 }

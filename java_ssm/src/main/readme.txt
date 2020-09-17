@@ -1,3 +1,4 @@
+【准备个数据库表 user 字段 name age】
 1:  引入依赖    数据库驱动,Mybatis依赖,连接池
 2:  启动类上加上注解 @MapperScan("com.gsm.dao"),不加的话需要在 dao 层下面每个接口都要加 @Repository
 3:  配置yml
