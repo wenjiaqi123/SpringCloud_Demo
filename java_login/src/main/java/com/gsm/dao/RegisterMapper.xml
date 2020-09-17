@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gsm.dao.RegisterDao">
+
+    <select id="selectIphoneNo" parameterType="String" resultType="Integer">
+        select count(1) as c
+        from sys_user t
+        where t.iphone_no = #{iphoneNo}
+    </select>
+
+    <insert id="insertUser" parameterType="SysUser">
+        insert into sys_user
+        (user_id,
+        iphone_no,
+        po)
+        values
+        (#{userId},
+        #{iphoneNo},
+        #{po})
+    </insert>
+</mapper>
