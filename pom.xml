@@ -66,6 +66,7 @@
         <module>java_eureka</module>
         <!--Zuul网关-->
         <module>java_zuul</module>
+        <module>java_cache</module>
     </modules>
 
     <name>SpringCloud_Demo Maven Webapp</name>
