@@ -1,4 +1,4 @@
 server:
   port: 19203
   servlet:
-    context-path: SpringCloudDemo
+    context-path: /SpringCloudDemo
