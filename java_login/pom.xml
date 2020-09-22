@@ -37,11 +37,18 @@
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
 
-        <!---->
+        <!--BCrypt-->
         <dependency>
             <groupId>org.mindrot</groupId>
             <artifactId>jbcrypt</artifactId>
             <version>0.4</version>
+        </dependency>
+
+        <!--jwt-->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.6.0</version>
         </dependency>
     </dependencies>
 </project>

@@ -21,4 +21,18 @@ public class LoginServiceImpl implements LoginService {
         }
         return flag;
     }
+
+    @Override
+    public String getJwt(SysUser sysUser) {
+        /*JwtBuilder jwt = Jwts.builder()
+                .signWith(SignatureAlgorithm.HS256, "盐")
+                *//*.setId(userId)
+                .setSubject(userName)
+                .setIssuedAt(new Date())
+                .claim("roleId", roleId)
+                .claim("roleName", roleName);*//*
+        String compact = jwt.compact();*/
+        //return compact;
+        return null;
+    }
 }

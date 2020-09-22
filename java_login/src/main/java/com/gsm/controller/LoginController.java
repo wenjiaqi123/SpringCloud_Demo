@@ -18,4 +18,10 @@ public class LoginController {
         boolean flag = loginService.getSth(sysUser);
         return flag;
     }
+
+    @GetMapping("jwt")
+    public String getJwt(SysUser sysUser) {
+        String str = loginService.getJwt(sysUser);
+        return str;
+    }
 }
