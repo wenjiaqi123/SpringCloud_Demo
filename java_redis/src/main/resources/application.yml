@@ -1,0 +1,28 @@
+server:
+  port: 20100
+#####################################################################
+spring:
+  # redis 配置
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  # 数据库连接配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://cdb-jwd16kdk.bj.tencentcdb.com:10069/wyxjava?useSSL=false&allowMultiQueries=true&autoReconnect=true&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8
+    username: root
+    password: wyxjava123
+#####################################################################
+mybatis:
+  # 别名包,该包名下的实体类在 Mapper 里可以直接写类名
+  type-aliases-package: com.gsm.entity
+  # 指定 mapper 位置, classpath 指代的是 编译过后的 target 包下 classes
+  mapper-locations: classpath:com/gsm/dao/*Mapper.xml
+  configuration:
+    # 首字母大小写转换
+    map-underscore-to-camel-case: true
+# log日志等级,mybatis打印sql
+logging:
+  level:
+    com.gsm.dao: DEBUG
+#####################################################################

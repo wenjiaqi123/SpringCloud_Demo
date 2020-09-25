@@ -67,6 +67,7 @@
         <!--Zuul网关-->
         <module>java_zuul</module>
         <module>java_cache</module>
+        <module>java_redis_listener</module>
     </modules>
 
     <name>SpringCloud_Demo Maven Webapp</name>

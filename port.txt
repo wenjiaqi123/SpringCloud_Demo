@@ -25,6 +25,7 @@ cache           缓存                     19205
 
 ################ 用得比较多 #################
 redis           redis                   20100
+redisListener   redis发布订阅            20101
 rabbitmq        消息队列                 20200
 mongodb         文档型数据库             20300
 elasticsearch   文件检索                 20400
