@@ -24,7 +24,7 @@ public class WebSocketController {
         //WebSocketServer.sendInfoAll(msg,cid);
         for (int i = 0; i < 10; i++) {
             try {
-                TimeUnit.SECONDS.sleep(10);
+                TimeUnit.SECONDS.sleep(1);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
