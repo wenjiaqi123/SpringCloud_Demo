@@ -4,3 +4,6 @@
     @NoArgsConstructor  相当于 无参构造
     @AllArgsConstructor 相当于 全参构造
     @Builder            相当于 建造者模式       User user = User.builder().name().age().build();
+
+常见问题:
+    【使用Builder 继承问题】
