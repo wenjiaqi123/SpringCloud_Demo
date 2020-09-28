@@ -47,10 +47,18 @@
         <module>java_swagger</module>
         <!--WebSocket推送-->
         <module>java_websocket</module>
+        <!--Spring 缓存 cache-->
+        <module>java_cache</module>
+
+
         <!--Redis-->
         <module>java_redis</module>
+        <!--Redis 发布订阅-->
+        <module>java_redis_listener</module>
         <!--RabbitMQ 消息队列-->
         <module>java_rabbitmq</module>
+        <!--RabbitMQ 发送回调-->
+        <module>java_rabbitmq_ack</module>
         <!--MongoDB 文档数据库-->
         <module>java_mongodb</module>
         <!--ElasticSearch 检索-->
@@ -66,8 +74,6 @@
         <module>java_eureka</module>
         <!--Zuul网关-->
         <module>java_zuul</module>
-        <module>java_cache</module>
-        <module>java_redis_listener</module>
     </modules>
 
     <name>SpringCloud_Demo Maven Webapp</name>

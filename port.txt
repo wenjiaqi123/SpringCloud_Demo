@@ -16,7 +16,6 @@ exception       异常                     20001
 login           登录                     19100
 security        认证鉴权                 19101
 
-
 job             定时任务                 19201
 async           异步编程                 19202
 swagger         接口文档                 19203
@@ -27,6 +26,7 @@ cache           缓存                     19205
 redis           redis                   20100
 redisListener   redis发布订阅            20101
 rabbitmq        消息队列                 20200
+rabbitmqACK     消息队列ACK              20201
 mongodb         文档型数据库             20300
 elasticsearch   文件检索                 20400
 jpa             jpa                     20500
