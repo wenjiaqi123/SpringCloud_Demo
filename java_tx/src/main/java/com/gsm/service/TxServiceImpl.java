@@ -1,4 +1,4 @@
-package com.gsm.service.impl;
+package com.gsm.service;
 
 import com.gsm.dao.TxDao;
 import com.gsm.entity.Money;

@@ -14,7 +14,7 @@ interceptor     拦截器                   20000
 exception       异常                     20001
 
 login           登录                     19100
-security        认证鉴权                 19101
+security        认证授权                 19101
 
 job             定时任务                 19201
 async           异步编程                 19202

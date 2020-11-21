@@ -1,0 +1,1 @@
+1:  基本配置同 java_rabbitmq 模块

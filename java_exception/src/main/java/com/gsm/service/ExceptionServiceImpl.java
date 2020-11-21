@@ -1,6 +1,5 @@
-package com.gsm.service.impl;
+package com.gsm.service;
 
-import com.gsm.service.ExceptionService;
 import org.springframework.stereotype.Service;
 
 @Service

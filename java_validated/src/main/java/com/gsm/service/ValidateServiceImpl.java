@@ -1,4 +1,4 @@
-package com.gsm.service.impl;
+package com.gsm.service;
 
 import com.gsm.service.ValidateService;
 import org.springframework.stereotype.Service;

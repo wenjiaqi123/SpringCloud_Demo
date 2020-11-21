@@ -1,4 +1,4 @@
-package com.gsm.service.impl;
+package com.gsm.service;
 
 import com.gsm.dao.LogDao;
 import com.gsm.entity.User;

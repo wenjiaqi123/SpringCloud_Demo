@@ -14,11 +14,13 @@
 <button onclick="clos()">关闭连接</button>
 <hr/>
 <div id="message"></div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script>
     var websocket = null;
+    var number;
     if ('WebSocket' in window) {
-        let number = Math.round(Math.random() * 1000);
-        websocket = new WebSocket("ws://127.0.0.1:19204/websocket/" + number);
+        number = Math.round(Math.random() * 1000);
+        websocket = new WebSocket("ws://localhost:19204/websocket/" + number);
     } else {
         alert("您的浏览器不支持websocket");
     }
@@ -48,7 +50,9 @@
 
     function send() {
         var msg = document.getElementById('text').value;
-        websocket.send(msg);
+        // websocket.send(msg);
+        this.axios.get("localhost:19204/websocket/" + number)
+        alert("取消alert;使用postman发起请求  localhost:19204/websocket/" + number)
     }
 </script>
 </body>
