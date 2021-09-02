@@ -36,3 +36,6 @@ jpa             jpa                     20500
 config          配置中心                29999
 eureka          注册中心                30000
 zuul            网关                    38080
+
+
+pull request
